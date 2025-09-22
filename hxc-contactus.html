@@ -5,7 +5,7 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width,initial-scale=1" />
    <title>在线联系表单 - 盒小仓</title>
-   <meta name="description" content="联系盒小仓（易推网络）在线表单：问题反馈、功能建议、商务合作等。" />
+   <meta name="description" content="联系盒小仓在线表单：问题反馈、功能建议、商务合作等。" />
    <style>
       :root {
          --brand: #2d6cdf;
@@ -209,7 +209,7 @@
                <span id="formTip" class="muted" role="status" aria-live="polite"></span>
             </div>
 
-            <p class="hint full">本表单适用于“盒小仓”，开发商：<strong>易推网络</strong>。</p>
+            <p class="hint full">本表单适用于“盒小仓”</p>
          </form>
       </div>
    </main>
@@ -276,7 +276,7 @@ ${data.message}
                headers: { 'Content-Type': 'application/json' },
                body: JSON.stringify({
                   app: '盒小仓',
-                  vendor: '易推网络',
+                  vendor: '',
                   ...data
                })
             });
